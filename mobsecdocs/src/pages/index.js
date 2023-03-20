@@ -17,32 +17,46 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'Easy to Use',
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    title: 'Product Security',
+    imageUrl: 'img/product_security.png',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        <ul>
+          <li>Web apps</li>
+          <li>Mobile apps</li>
+          <li>APIs</li>
+          <li>Thick clients</li>
+        </ul>
+
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    title: 'Cloud Secutity',
+    imageUrl: 'img/cloud_security.png',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        <ul>
+          <li>Cloud Infra Pentesting</li>
+          <li>Cloud Audit</li>
+          <li>Cloud Reviews</li>
+          <li>Kubernetes</li>
+        </ul>
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    title: 'Consulting',
+    imageUrl: 'img/consulting.png',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        <ul>
+          <li>Threat modelling</li>
+          <li>Breach analysis</li>
+          <li>Security Training</li>
+          <li>Compliances</li>
+        </ul>
+
       </>
     ),
   },
