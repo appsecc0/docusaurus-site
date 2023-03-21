@@ -9,5 +9,5 @@ To configure the proxy settings for [Burp Suite Professional](https://portswigge
 5. Select **All interfaces** and click **OK**.
 6. At the prompt, click **Yes**.
 
-![](../../img/beginners-guide-for-android-testing/16.jpg)
+![](../../img/16.jpg)
 Configuring the proxy listener

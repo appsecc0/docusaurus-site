@@ -10,6 +10,6 @@ In your Android device, go to **Settings > Network & internet**.
    this example 8083.
 6. Touch **Save**
 
-![](../../img/beginners-guide-for-android-testing/17.jpg)
-![](../../img/beginners-guide-for-android-testing/18.jpg)
-![](../../img/beginners-guide-for-android-testing/19.jpg)
+![](../../img/17.jpg)
+![](../../img/18.jpg)
+![](../../img/19.jpg)

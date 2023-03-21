@@ -11,6 +11,6 @@ strings inside APK files.
 Open command prompt and change the working directory to the apktool installed folder. Eg.
 “E:\APK_Tool>l”
 
-Set java path (if not set)using following command: Set path=<PATH TO JAVA>
+Set java path (if not set)using following command:`Set path=<PATH TO JAVA>`
 
-![](../../img/beginners-guide-for-android-testing/11.jpg)
+![](../../img/11.jpg)

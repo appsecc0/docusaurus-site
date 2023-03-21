@@ -2,15 +2,15 @@
 
 1. Smali file before modification
 
-![](../../img/beginners-guide-for-android-testing/14.jpg)
+![](../../img/14.jpg)
 
 2. Smali file after modification
 
-![](../../img/beginners-guide-for-android-testing/14.jpg)
+![](../../img/14.jpg)
 
 3. Recompile / re-build the apk : **`apktool d <folder>`**
 
-![](../../img/beginners-guide-for-android-testing/15.jpg)
+![](../../img/15.jpg)
 
 4. Sign the APK jarsigner.
 
