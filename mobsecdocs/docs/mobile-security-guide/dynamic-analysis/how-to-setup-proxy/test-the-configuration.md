@@ -8,5 +8,5 @@ To test the configuration:
 
 The page should load without any security warnings. You should see the corresponding requests within Burp Suite Professional.
 
-![](../../img/beginners-guide-for-android-testing/25.jpg)
+![](../../img/25.jpg)
 Intercepted the browser traffic in proxy tool

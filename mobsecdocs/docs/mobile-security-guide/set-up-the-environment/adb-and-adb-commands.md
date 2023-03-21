@@ -60,6 +60,6 @@ Here are some common ADB commands:
 14. **`adb shell input text [text]`**: Simulates typing text on the Android device’s
      keyboard.
 
-![](../img/beginners-guide-for-android-testing/4.jpg)
-![](../img/beginners-guide-for-android-testing/5.jpg)
+![](../img/4.jpg)
+![](../img/5.jpg)
 adb commands

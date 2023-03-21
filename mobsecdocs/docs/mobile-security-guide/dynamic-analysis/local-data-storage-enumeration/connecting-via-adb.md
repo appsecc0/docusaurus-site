@@ -6,8 +6,8 @@ Settings, then About Device or About Phone, depending on the device, and then we
 
 Next, tap the back button one time and navigate to Developer Options.
 
-![](../../img/beginners-guide-for-android-testing/26.jpg)
-![](../../img/beginners-guide-for-android-testing/27.jpg)
+![](../../img/26.jpg)
+![](../../img/27.jpg)
 Enabling USB debugging IP details
 
 Once we get the IP of the device connect it using adb connect.
@@ -17,8 +17,8 @@ Once we get the IP of the device connect it using adb connect.
 
 Since we are using emulator we can use [localhost](http://localhost) ip 127.0.0.1 as well.
 
-![](../../img/beginners-guide-for-android-testing/28.jpg)
+![](../../img/28.jpg)
 
 This command will also start an adb server locally, waiting for new connections. According to the official ADB [documentation](https://developer.android.com/studio/command-line/adb) , port 5555 is used by the adb server, and it is the first port in a sequence that the emulator will attempt to connect to. Once the connection is established, we can use `adb devices` to list the connected devices.
 
-![](../../img/beginners-guide-for-android-testing/29.jpg)
+![](../../img/29.jpg)

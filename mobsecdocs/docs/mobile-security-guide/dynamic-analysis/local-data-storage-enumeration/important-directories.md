@@ -40,18 +40,18 @@ For example /data/data/com.app.damnvulnerablebank package is installed, and a
 database is used for storing data. In that case, the database can be found under the directory
 /data/data/com.app.damnvulnerablebank/databases/.
 
-![](../../img/beginners-guide-for-android-testing/30.jpg)
+![](../../img/30.jpg)
 /data/data/com.app.damnvulnerablebank
 
 Once the database is identified, we can use the sqlite3 tool to read its
 content.[https://sqlitebrowser.org/dl/](https://sqlitebrowser.org/dl/)
 
-![](../../img/beginners-guide-for-android-testing/31.jpg)
+![](../../img/31.jpg)
 
 Databases are not the only place where data is stored. In the source code, SharedPreferences
 are objects that point to XML files in order to read and write on them. These XML files
 eventually will contain a collection of key-value pairs, and will be stored in a directory called
 shared_prefs.
 
-![](../../img/beginners-guide-for-android-testing/32.jpg)
+![](../../img/32.jpg)
 shared_pref contain sensitive information.

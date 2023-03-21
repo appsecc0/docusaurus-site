@@ -9,4 +9,4 @@ or Nox_Player for testing.
 An emulator provides a complete virtual environment that mimics the actual device, while a
 simulator only simulates the behaviour of the device.
 
-![](../img/beginners-guide-for-android-testing/1.jpg)
+![](../img/1.jpg)

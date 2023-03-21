@@ -6,5 +6,5 @@ this method is, that on one hand it's less complicated,
 To decompile the app from binary code directly into Java classes, we use the Android
 decompiler [JADX](https://github.com/skylot/jadx). With JADX, we can simply open the APK file and view the source code.
 
-![](../../img/beginners-guide-for-android-testing/10.jpg)
+![](../../img/10.jpg)
 Open the apk using JADX.

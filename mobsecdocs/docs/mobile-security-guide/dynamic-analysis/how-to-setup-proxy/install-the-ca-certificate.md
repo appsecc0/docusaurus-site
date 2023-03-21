@@ -11,8 +11,8 @@ Professional on your Android device.
 4. rename the file as cacert.cer
 5. Click on Download
 
-![](../../img/beginners-guide-for-android-testing/20.jpg)
-![](../../img/beginners-guide-for-android-testing/21.jpg)
+![](../../img/20.jpg)
+![](../../img/21.jpg)
 
 **To install the CA certificate**
 
@@ -23,9 +23,9 @@ Professional on your Android device.
 5. Enter a name to the certificate and click on OK
 6. Certificate installed successfully
 
-![](../../img/beginners-guide-for-android-testing/22.jpg)
-![](../../img/beginners-guide-for-android-testing/23.jpg)
-![](../../img/beginners-guide-for-android-testing/24.jpg)
+![](../../img/22.jpg)
+![](../../img/23.jpg)
+![](../../img/24.jpg)
 
 Depending upon the android version and device version there are multiple methods to install
 the CA certificate. Please refer the below links if this method not worked for your version.
