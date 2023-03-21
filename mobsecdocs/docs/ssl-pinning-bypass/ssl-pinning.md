@@ -21,7 +21,7 @@ sidebar_position: 1
 SSL Pinning helps to create a secure environment for data communication between the client
 machine and the server. But would technically fail, if the host gets compromised. SSL pinning
 helps to safeguard the client system as well the server by preventing the traffic from being
-snooped, figuring out the API and revealing the security bugs.
+snooped, figuring out the API and revealing the security bugs..
 
 ### Ways to implement SSL Pinning.
 
