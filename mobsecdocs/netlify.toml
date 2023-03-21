@@ -1,5 +1,0 @@
-# example netlify.toml
-[build]
-  command = "cd mobsecdocs && docker-compose up -d"
-  functions = "netlify/functions"
-  publish = "mobsecdocs"
