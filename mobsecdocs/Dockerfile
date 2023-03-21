@@ -17,8 +17,9 @@ FROM base as production
 # Install (not ci) with dependencies, and for Linux vs. Linux Musl (which we use for -alpine)
 RUN npm install
 WORKDIR /home/node/app
+COPY --from=base /usr/local/bin/npm /usr/local/bin/npm
 # Expose port 443 in production
-EXPOSE 443
+EXPOSE 80
 # Build the Docusaurus app
 RUN npm run build
 # Start the app in debug mode so we can attach the debugger

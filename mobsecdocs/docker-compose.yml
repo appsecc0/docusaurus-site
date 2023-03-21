@@ -1,0 +1,20 @@
+version: "3.8"
+services:
+  app:
+    # Build the image using the Dockerfile in the current directory
+    build: .
+    # Set environment variables for the app
+    environment:
+      NODE_ENV: production
+    # Expose port 443 to the host
+    ports:
+      - "80:80"
+    # Run the app in the background
+    # (use "docker-compose logs -f" to view logs)
+    # (use "docker-compose down" to stop the app and remove containers)
+    #command: npm start -- --https
+    # Use a named volume to persist data across container restarts
+    volumes:
+      - app-data:/home/node/app
+volumes:
+  app-data:
