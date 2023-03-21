@@ -31,4 +31,4 @@ FROM nginx:stable-alpine as deploy
 WORKDIR /home/node/app
 #COPY nginx/nginx.conf /etc/nginx/nginx.conf
 # Copy what we've installed/built from production
-COPY --chown=node:node --from=production /home/node/app/build /usr/share/nginx/html/
+COPY --from=production /home/node/app/build /usr/share/nginx/html/
