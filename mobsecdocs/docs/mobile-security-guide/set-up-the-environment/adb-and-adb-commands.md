@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # ADB and ADB commands
 
 ADB (Android Debug Bridge) is a command-line tool that enables communication between a
@@ -7,59 +11,86 @@ applications, and collect information for debugging or security testing purposes
 
 Here are some common ADB commands:
 
-1. **`adb devices`**: Lists all connected Android devices and their status.
+1. Lists all connected Android devices and their status.
 
-2. **`adb shell`**: Opens a shell on the Android device, allowing the user to execute
-   commands directly on the device.
+```bash 
+adb devices
+```
 
-3. **`adb install [path to APK]`**: Installs an Android application on the connected
-   device.
+2. Opens a shell on the Android device, allowing the user to execute commands directly on the device.
+```bash 
+adb shell
+``` 
 
-4. **`adb uninstall [package name]`**: Uninstalls an application from the connected
-   device.
+3. Installs an Android application on the connected device.
+```bash
+adb install [path to APK]
+```
 
-5. **`adb pull [remote file path] [local file path]`**: Copies a file from the
-   Android device to the local computer.
+4. Uninstalls an application from the connected device.
+```bash
+adb uninstall [package name]
+```
 
-6. **`adb push [local file path] [remote file path]`**: Copies a file from the local
-   computer to the Android device.
+5. Copies a file from the Android device to the local computer.
+```bash
+adb pull [remote file path] [local file path]
+```
 
-7. **`adb bugreport`**: Generates a detailed bug report of the Android device, including
-   system logs, application data, and device information.
+6. Copies a file from the local computer to the Android device.
+```bash 
+adb push [local file path] [remote file path]
+```
 
-8. **`adb screenrecord`**: Records the Android device’s screen in real-time and saves it as
-   a video file on the local computer.
+7. Generates a detailed bug report of the Android device, including system logs, application data, and device information.
+```bash 
+adb bugreport
+``` 
 
-9. **Start/ Stop ADB server:** If a device is connected start the adb server to be able to
-   interact with the device.
-   **`adb start-server`**
-   **`adb kill-server`**
+8. Records the Android device’s screen in real-time and saves it as a video file on the local computer.
+```bash
+adb screenrecord
+```
 
-10. **`adb logcat`**: Displays the Android device’s system log in real-time.
-    `adb logcat` Print the current device log to the console.
-    `adb logcat -d > [path_to_file]` Save the logcat output to a file on the local
-    system.
-    `adb logcat -c` The parameter -c will clear the current logs on the device.
-    To capture logs of a specific app:
+9. **Start/ Stop ADB server** If a device is connected start the adb server to be able to interact with the device.
+```bash   
+adb start-server
+adb kill-server
+```
+
+10. **`adb logcat`**: Displays the Android device’s system log in real-time.<br />
+    `adb logcat` Print the current device log to the console.<br />
+    `adb logcat -d > [path_to_file]` Save the logcat output to a file on the local system.<br />
+    `adb logcat -c` The parameter -c will clear the current logs on the device.<br />
+
+**To capture logs of a specific app:**<br />
     `adb shell pidof com.example.app` (gives you pid of specific app)
-    `adb logcat --pid 15236` displays log of that app's pid only) you can also append -f \<filename\> to adb logcat command
+    `adb logcat --pid 15236` displays log of that app's pid only) you can also append `-f \<filename\>` to adb logcat command
     `adb logcat packagename:[priority level: V, D, I, W, E, F, S]` Filter log
     files by priority e.g. adb logcat com.myapp:E which prints all error logs
 
-11. **`adb shell`**: Allow you to interact with an Android device’s command-line interface
-     directly from your computer
+11. Allow you to interact with an Android device’s command-line interface directly from your computer
+```bash 
+adb shell
+```
+Lists all installed packages on the Android device.
+```bash 
+adb shell pm list packages
+```
 
-     **`adb shell pm list packages`**: Lists all installed packages on the Android device.
+12. Starts an activity on the Android device using an intent.
+```bash 
+adb shell am start [intent]
+```
+13. Stops an activity on the Android device using an intent.
+```bash 
+adb shell am force-stop com.android.settings
+```
 
-12. **`adb shell am start [intent]`**: Starts an activity on the Android device using an
-     intent.
-
-13. **`adb shell am force-stop com.android.settings`**: Stops an activity on the
-     Android device using an intent.
-
-14. **`adb shell input text [text]`**: Simulates typing text on the Android device’s
-     keyboard.
+14. Simulates typing text on the Android device’s keyboard.
+```bash 
+adb shell input text [text]
+```
 
 ![](../img/4.jpg)
 ![](../img/5.jpg)
-adb commands

@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # Install a CA certificate on your Android device
 
 In order to interact with HTTPS traffic, you need to install a CA certificate from Burp Suite

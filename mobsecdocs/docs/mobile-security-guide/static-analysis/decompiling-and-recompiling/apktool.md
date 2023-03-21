@@ -1,6 +1,10 @@
-# [Apk Tool](https://ibotpeaches.github.io/Apktool/)
+---
+sidebar_position: 1
+---
 
-APKTool is an application which decompiles android APKs. It also allows you to debug the
+# APK tool
+
+**[ApkTool](https://ibotpeaches.github.io/Apktool/)**  is an application which decompiles android APKs. It also allows you to debug the
 smali code step by step. It will enable us to build a language pack by translating the .xml
 strings inside APK files.
 
@@ -9,8 +13,10 @@ strings inside APK files.
 3. Copy the apk file to the apktool folder.
 
 Open command prompt and change the working directory to the apktool installed folder. Eg.
-“E:\APK_Tool>l”
+```bash 
+E:\APK_Tool>
+```
 
-Set java path (if not set)using following command:`Set path=<PATH TO JAVA>`
+Set java path (if not set)using following command: `Set path=<PATH TO JAVA>`
 
 ![](../../img/11.jpg)

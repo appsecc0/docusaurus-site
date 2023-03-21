@@ -1,3 +1,7 @@
+---
+sidebar_position: 4
+---
+
 # Test the configuration/ Intercepting the request
 
 To test the configuration:

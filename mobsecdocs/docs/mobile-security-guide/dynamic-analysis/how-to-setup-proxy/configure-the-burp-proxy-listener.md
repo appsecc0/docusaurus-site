@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Configure the Burp Proxy Listener
 
 To configure the proxy settings for [Burp Suite Professional](https://portswigger.net/burp/pro):

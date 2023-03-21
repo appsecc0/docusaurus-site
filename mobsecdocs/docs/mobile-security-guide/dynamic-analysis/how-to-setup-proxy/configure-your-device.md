@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Configure your device to use the proxy
 
 In your Android device, go to **Settings > Network & internet**.

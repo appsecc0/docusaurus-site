@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # How to install the application
 
 1. Install from play store — straightforward.
@@ -9,6 +13,6 @@
 
 
 
-3. adb install filename.apk
+3. ```bash adb install filename.apk ```
 
 ![](../img/3.jpg)
