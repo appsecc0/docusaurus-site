@@ -14,7 +14,7 @@ sidebar_position: 1
     intercept the traffic.
 - But in the SSL Pinning implementation, application does not trust custom certificates and
     does not allow proxy tools to intercept the
-    traffic..
+    traffic..added to test!!!
 
 ### Why SSL Pinning?
 
