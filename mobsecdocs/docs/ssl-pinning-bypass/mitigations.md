@@ -8,4 +8,4 @@
     certificate with checkClientTrusted and checkServerTrusted./; ,
 - Mostly implementation of Two-way SSL is complex, so if we can prevent the modification or
     reverse engineering of android application that would basically avoid the SSL Pinning bypass
-    using reverse engineering or Hooking method.
+    using reverse engineering or Hooking method..
