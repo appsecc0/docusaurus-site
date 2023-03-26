@@ -3,7 +3,7 @@
 ### Mobile Security Testing Documentation
  \- *Docusaurus Documentation*
 
-### How to nstall
+### How to install
 
 1. Clone the repository
 `git clone https://github.com/appsecc0/docusaurus-site.git`
@@ -37,6 +37,6 @@ OR
 2. Docker 
 
 ---
-![image of Appsecco](./static/img/logo.png)
+![image of Appsecco](./mobsecdocs/static/img/logo.png )
 
 *Build for Mobile security enthusiast by Appsecco team with ❤️*
